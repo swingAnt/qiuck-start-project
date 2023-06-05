@@ -1,0 +1,30 @@
+{
+  "name": "qiuck-start-project",
+  "version": "1.0.0",
+  "description": "一个快速创建项目的脚手架",
+  "bin": {
+    "qiuck-start-project": "bin/index.js"
+  },
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "bin"
+  ],
+  "keywords": [
+    "qiuck-start-project",
+    "快速创建项目脚手架"
+  ],
+  "author": "lijunkai",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "commander": "^10.0.1",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^11.1.1",
+    "inquirer": "8.0.0",
+    "ora": "5.4.1",
+    "util": "^0.12.5"
+  }
+}
