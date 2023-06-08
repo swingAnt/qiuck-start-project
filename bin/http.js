@@ -11,13 +11,13 @@ async function getRepolist() {
 }
 const promptTypeList = [
         {
-            name: 'react的业务脚手架',
+            name: 'react的脚手架',
             url: 'direct:https://github.com/swingAnt/react-project.git#main', //仓库地址
 
         },
         {
-            name: '小程序',
-            url: "github:swingAnt/react-project", //仓库地址
+            name: 'vue3的脚手架',
+            url: "direct:https://github.com/swingAnt/vue3-project.git#main", //仓库地址
         },
 ]
 
