@@ -17,7 +17,7 @@ const promptTypeList = [
         },
         {
             name: 'vue3的脚手架',
-            url: "direct:https://github.com/swingAnt/vue3-project.git#main", //仓库地址
+            url: 'direct:https://github.com/swingAnt/vue3-project.git#main', //仓库地址
         },
 ]
 
