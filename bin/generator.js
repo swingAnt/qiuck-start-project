@@ -90,9 +90,7 @@ class Generator {
     async download(repo, tag) {
         const dir = path.join(process.cwd(), this.name);
         const url = promptTypeList.filter(l => l.name === repo)[0]?.url
-        console.log('项目初始化拷贝获取中...',url);
-        console.log('dir...',dir);
-
+        console.log('项目初始化拷贝获取中...');
        this.wrapLoading(url, dir,'waiting download template')
     }
 
