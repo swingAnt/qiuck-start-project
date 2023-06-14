@@ -12,6 +12,10 @@
   "files": [
     "bin"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/swingAnt/qiuck-start-project.git"
+  },
   "keywords": [
     "qiuck-start-project",
     "快速创建项目脚手架"
